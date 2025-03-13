@@ -1,0 +1,179 @@
+body { 
+    font-family: Arial, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-size: auto; 
+    margin: 0;
+    
+}
+
+.list1 {
+    background-color: black;
+    width: 360px;
+    height: 670px;
+    position: relative; 
+    display: grid;
+    align-items: center;
+}
+
+.logo {
+    width: 78.45px;
+    height: 15.43px;
+    margin: 20px;
+    background: none;
+}
+
+.tex {
+    background: none;
+    width: 75px;
+    height: 84px;
+    color: white;
+    display: grid;
+    margin: -40px 0 0 280px;
+    
+}
+
+a:link {
+    color: white; 
+}
+
+a:visited {
+    color: white; 
+}
+a:hover {
+    color: white; 
+}
+a:active {
+    color: white; 
+}
+
+.logo2 {
+    width: 340px;
+    height: 221px;
+    margin: 20px;
+    background: none;
+}
+
+.part {
+    background: none;
+    color: white;
+    width: 340px;
+    height: 221px;
+    position: relative; 
+}
+
+.text-container {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 340px; 
+    height: 221px; 
+    display: flex;
+    
+    align-items: center;
+}
+
+.pre1 {
+    color: white;
+    font-size: 54px; 
+    line-height: 1.5; 
+    margin: 0; 
+    white-space: pre-wrap; 
+    margin-top: auto;
+    padding: 20px;
+    padding-top: 10px;
+    padding-left: -30px;
+}
+
+.list1text{
+    
+    width: 320px;
+    height: 453px;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.list2{
+    background-color: #FEE42A;
+    box-sizing: border-box;
+    width: 360px;
+    height: 1668px;
+    display: grid;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.zag2{
+    color: black;
+    font-size:27px ;
+    background: none;
+    margin-left: -140px;
+    margin-top: 20px;
+    
+    
+}
+
+.tex2{
+    font-size: 17px;
+    margin-left: 30px;
+    margin-top:-50px;
+    background: none;
+    margin-right: 50px;
+
+}
+
+.list3{
+    background-color: black;
+    width: 360px;
+    height: 1680px;
+    position: relative; 
+    display: grid;
+    align-items: center;
+    
+    
+}
+
+.zag3{
+    color: white;
+    background: none;
+    font-size: 22px;
+    margin-left: -80px;
+    
+}
+
+.b1{
+    
+    display: grid;
+    background: none;
+    margin-top: -490px;
+    margin-left: 20px;    
+}
+
+.tex3{
+    margin-top: 310px;
+
+}
+
+.li1{
+    margin-top: 10px;
+}
+
+.li2{
+    margin-top: 10px;
+}
+
+.li3{
+    margin-top: 10px;
+}
+
+.li4{
+    margin-left: -20px;
+    margin-top: 50px;
+}
+
