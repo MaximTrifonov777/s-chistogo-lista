@@ -11,10 +11,10 @@ body {
 .list1 {
     background-color: black;
     width: 360px;
-    position: relative;
+    height: 670px;
+    position: relative; 
     display: grid;
     align-items: center;
-    box-sizing: border-box;
 }
 
 .logo {
@@ -26,11 +26,11 @@ body {
 
 .tex {
     background: none;
-    width: auto;
-    height: auto;
+    width: 75px;
+    height: 84px;
     color: white;
     display: grid;
-    margin: 0 0 0 280px;
+    margin: -40px 0 0 280px;
     
 }
 
@@ -53,7 +53,6 @@ a:active {
     height: 221px;
     margin: 20px;
     background: none;
-    
 }
 
 .part {
@@ -65,54 +64,57 @@ a:active {
 }
 
 .text-container {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 340px;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 340px; 
+    height: 221px; 
     display: flex;
+    
     align-items: center;
 }
 
 .pre1 {
     color: white;
-    font-size: 54px;
-    line-height: 1.5;
-    white-space: normal;
+    font-size: 54px; 
+    line-height: 1.5; 
+    margin: 0; 
+    white-space: pre-wrap; 
+    margin-top: auto;
     padding: 20px;
     padding-top: 10px;
-    background: none;
-    top: -280px;
-    position: relative;
-    margin-left: 30px;
+    padding-left: -30px;
 }
 
 .list1text{
     
     width: 320px;
-    height: auto;
+    height: 453px;
     color: white;
     box-sizing: border-box;
     padding: 10px;
     margin-top: 25px;
     font-size: 12px;
-    background: none;
 }
 
-.list2 {
+.list2{
     background-color: #FEE42A;
     box-sizing: border-box;
     width: 360px;
+    height: 1668px;
     display: grid;
-    align-items: start;
-    grid-template-rows: auto;
+    align-items: center;
+    flex-direction: column;
+    
+    
 }
+
 .zag2{
     color: black;
     font-size:27px ;
     background: none;
+    margin-left: -140px;
     margin-top: 20px;
-    position: relative;
-    margin-left: -130px;
     
     
 }
@@ -120,21 +122,19 @@ a:active {
 .tex2{
     font-size: 17px;
     margin-left: 30px;
+    margin-top:-50px;
     background: none;
     margin-right: 50px;
-    width: auto;
-    position: relative;
-    margin-top: -30px;
 
 }
 
 .list3{
     background-color: black;
     width: 360px;
-    position: relative;
+    height: 1680px;
+    position: relative; 
     display: grid;
-    align-items: start;
-    box-sizing: border-box;
+    align-items: center;
     
     
 }
@@ -143,18 +143,16 @@ a:active {
     color: white;
     background: none;
     font-size: 22px;
-    padding: 10px;
-    position: relative;
-    margin-left: -90px;
+    margin-left: -80px;
+    
 }
 
 .b1{
     
     display: grid;
     background: none;
-    margin-left: 20px;   
-    position: relative; 
-    margin-top: -450px;
+    margin-top: -490px;
+    margin-left: 20px;    
 }
 
 .tex3{
@@ -175,18 +173,7 @@ a:active {
 }
 
 .li4{
-   
-    margin-top: 50px;
     margin-left: -20px;
-    position: relative;
+    margin-top: 50px;
 }
 
-@font-face {
- font-family: "mysrift";
- src: url("fonts/ebgaramondregular.woff") format("woff"),
-      url("fonts/ebgaramondregular.woff2") format("woff2"),
-      url("fonts/ebgaramondregular.ttf") format("ttf"),
-      url("fonts/interbold.ttf") format("ttf"),
-      url("fonts/interbold.woff") format("woff"),
-      url("fonts/interbold.woff") format("woff"),
-}
